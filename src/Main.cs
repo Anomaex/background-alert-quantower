@@ -7,7 +7,7 @@ using TradingPlatform.BusinessLayer;
 using System.Text;
 using System.Linq;
 
-namespace Background_Alert_Quantower
+namespace BackgroundAlert
 {
     internal static class Main
     {
@@ -132,8 +132,8 @@ namespace Background_Alert_Quantower
             Task.Run(async () =>
             {
                 await Task.Delay(100);
-                string path = "../../../Settings/Scripts/Indicators/Background_Alert_Quantower/";
-                bool flag = Path.Exists(path + "Background_Alert_Quantower.dll");
+                string path = "../../../Settings/Scripts/Indicators/BackgroundAlert/";
+                bool flag = Path.Exists(path + "BackgroundAlert.dll");
                 if (flag)
                     path += "Alerts.json";
                 else
@@ -150,8 +150,8 @@ namespace Background_Alert_Quantower
             Task.Run(async () =>
             {
                 await Task.Delay(100);
-                string path = "../../../Settings/Scripts/Indicators/Background_Alert_Quantower/";
-                bool flag = Path.Exists(path + "Background_Alert_Quantower.dll");
+                string path = "../../../Settings/Scripts/Indicators/BackgroundAlert/";
+                bool flag = Path.Exists(path + "BackgroundAlert.dll");
                 if (flag)
                     path += "Alerts.json";
                 else

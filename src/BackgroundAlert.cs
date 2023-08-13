@@ -2,13 +2,13 @@ using TradingPlatform.BusinessLayer;
 using TradingPlatform.BusinessLayer.Chart;
 using System.Threading.Tasks;
 
-namespace Background_Alert_Quantower
+namespace BackgroundAlert
 {
     public class BackgroundAlert : Indicator
     {
         public BackgroundAlert() : base()
         {
-            Name = "Background_Alert";
+            Name = "BackgroundAlert";
             Description = "All alerts will be enabled in background, even if you close chart.";
             SeparateWindow = false;
         }

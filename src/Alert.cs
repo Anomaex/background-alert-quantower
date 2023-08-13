@@ -1,4 +1,4 @@
-﻿namespace Background_Alert_Quantower
+﻿namespace BackgroundAlert
 {
     public class Alert
     {
