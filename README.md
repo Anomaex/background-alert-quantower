@@ -15,7 +15,7 @@ All alerts will be enabled in background, even if you close chart.
 
 - Run Quantower.
 
-- Add `Background_Alert` indicator to your chart.
+- Add `BackgroundAlert` indicator to your chart.
 
 ## License
 
