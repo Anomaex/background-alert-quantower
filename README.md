@@ -7,7 +7,7 @@ All alerts will be enabled in background, even if you close chart.
 
 - [Quantower](https://quantower.com), version 1.133.7 and later.
 
-## Installation:
+## Installation
 
 - Download latest [release](https://github.com/Anomaex/background-alert-quantower/releases), name is `BackgroundAlertQuantower.zip`.
 
